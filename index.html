@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scholarship Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shorcut icon" href="https://cdn-icons-png.freepik.com/256/18243/18243096.png?ga=GA1.1.783388409.1719124054&semt=ais_hybrid"/>
+</head>
+<body>
+  <div class="header">
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+    </div>
+  </div>
+  
+  <header>
+    <h1>Scholarship Finder</h1>
+  </header>
+
+  <main class="form-container">
+    <div class="dropdowns">
+      <label for="educationLevel">Education Level</label>
+      <select id="educationLevel">
+        <option value="">Choose education level</option>
+        <option value="Class 8">Class 8</option>
+        <option value="Class 9-10">Class 9-10</option>
+        <option value="Class 11-12">Class 11-12</option>
+        <option value="UG">UG</option>
+        <option value="PG">PG</option>
+        <option value="Ph.D">Ph.D</option>
+      </select>
+
+      <label for="income">Income range</label>
+      <select id="income">
+        <option value="">Choose income</option>
+        <option value="1 lakh">≤ 1 lakh</option>
+        <option value="1.5 lakh">≤ 1.5 lakh</option>
+        <option value="2 lakh">≤ 2 lakh</option>
+        <option value="2.5 lakh">≤ 2.5 lakh</option>
+      </select>
+
+      <label for="category">Category</label>
+      <select id="category">
+        <option value="">Choose category</option>
+        <option value="General">General</option>
+        <option value="OBC">OBC</option>
+        <option value="SC">SC</option>
+        <option value="ST">ST</option>
+        <option value="Minority">Minority</option>
+      </select>
+    </div>
+    <button id="findScholarshipButton">Find Scholarships</button>
+  </main>
+
+  <script src="dummy-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

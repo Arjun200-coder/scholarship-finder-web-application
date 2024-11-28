@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9bd1f2;
+  }
+  
+  header {
+    text-align: center;
+    color: rgba(40, 86, 202, 0.951);
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .dropdowns label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgba(40, 86, 202, 0.951);;
+  }
+  
+  select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 2px solid #3254dd;
+    border-radius: 99px;
+  }
+  
+  button {
+    background-color: red;
+    border-radius: 99px;
+    border: 2px solid darkred;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: green;
+    
+  }
+  
+  #resultsContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scholarship {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .scholarship h3 {
+    margin: 0 0 5px;
+  }
+  
+  .scholarship p {
+    margin: 0;
+  }
+  
+  .scholarship a {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+  }  
+
+  .content h1 {
+    text-align: center;
+    color: #004b8d;
+  }
+
+  .content p {
+    margin-top: 20px;
+  }
+
+  .header {
+    background-color: #004b8d;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
